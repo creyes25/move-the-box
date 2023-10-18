@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(153, 249, 249, 0.459);
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+  text-align: center;
+  margin-top: 8vh
+}
+
+.box-container {
+  background-color: rgb(0, 0, 87);
+  margin: 20vh auto;
+  width: 95%;
+  height: 70px;
+  border-radius: 15px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.click {
+  border: 1px solid white;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px rgba(128, 128, 128, 0.571);
+  cursor: pointer;
+}
