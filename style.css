@@ -28,7 +28,7 @@ body {
   border-radius: 16px;
   position: relative;
   left: 0;
-  transition: left 3s linear, background 2.5s linear;
+  ;
 
 }
 
@@ -49,8 +49,10 @@ body {
 .right {
   left: calc(100% - 70px);
   background-color: rgb(141, 187, 255);
+  transition: left 3s linear, background 2.5s linear
 }
 
 .left {
   background-color: rgb(205, 158, 248);
+  transition: left 3s linear, background 2.5s linear
 }

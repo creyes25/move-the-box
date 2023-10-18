@@ -10,7 +10,6 @@ function moveBox () {
     box.classList.remove('left')
     box.classList.add('right')
   }
-
 }
 
 
